@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+G:/Программы/CMake/share/cmake-3.29/Modules/FindDoxygen.cmake
+G:/Программы/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+G:/Программы/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+H:/СПО/3курс/Internship/TrueFirst/external/glfw/docs/CMakeLists.txt

@@ -1,0 +1,10 @@
+^H:\СПО\3КУРС\INTERNSHIP\TRUEFIRST\CMAKELISTS.TXT
+setlocal
+G:\Программы\CMake\bin\cmake.exe -SH:/СПО/3курс/Internship/TrueFirst -BH:/СПО/3курс/Internship/TrueFirst/build --check-stamp-file H:/СПО/3курс/Internship/TrueFirst/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

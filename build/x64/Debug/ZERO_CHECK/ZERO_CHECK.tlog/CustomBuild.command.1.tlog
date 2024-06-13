@@ -1,0 +1,10 @@
+^H:\СПО\3КУРС\INTERNSHIP\TRUEFIRST\BUILD\CMAKEFILES\6219BD45B93CCAEF885DDD7CEFB0330B\GENERATE.STAMP.RULE
+setlocal
+G:\Программы\CMake\bin\cmake.exe -SH:/СПО/3курс/Internship/TrueFirst -BH:/СПО/3курс/Internship/TrueFirst/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/СПО/3курс/Internship/TrueFirst/build/MyGLFWProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

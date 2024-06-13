@@ -1,0 +1,18 @@
+﻿  Building Custom Rule H:/СПО/3курс/Internship/TrueFirst/CMakeLists.txt
+  game.cpp
+  shader.cpp
+  texture.cpp
+  resource_manager.cpp
+  stb_image.cpp
+  main.cpp
+H:\СПО\3курс\Internship\TrueFirst\test\src\main.cpp(64,28): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  sprite_renderer.cpp
+  game_object.cpp
+  game_level.cpp
+H:\СПО\3курс\Internship\TrueFirst\test\src\game_level.cpp(47,25): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+H:\СПО\3курс\Internship\TrueFirst\test\src\game_level.cpp(48,24): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+H:\СПО\3курс\Internship\TrueFirst\test\src\game_level.cpp(49,76): warning C4244: инициализация: преобразование "unsigned int" в "float", возможна потеря данных
+  ball_object.cpp
+  particle_generator.cpp
+  Создание кода...
+  MyGLFWProject.vcxproj -> H:\СПО\3курс\Internship\TrueFirst\build\Debug\MyGLFWProject.exe
